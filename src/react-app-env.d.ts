@@ -35,8 +35,8 @@ declare module '*.png' {
 }
 
 declare module '*.webp' {
-    const src: string;
-    export default src;
+  const src: string;
+  export default src;
 }
 
 declare module '*.svg' {
@@ -48,17 +48,7 @@ declare module '*.svg' {
   export default src;
 }
 
-declare module '*.module.css' {
-  const classes: { [key: string]: string };
-  export default classes;
-}
-
-declare module '*.module.scss' {
-  const classes: { [key: string]: string };
-  export default classes;
-}
-
-declare module '*.module.sass' {
+declare module '*.module.styl' {
   const classes: { [key: string]: string };
   export default classes;
 }
